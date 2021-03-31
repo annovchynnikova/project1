@@ -1,0 +1,137 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .header {
+        height: 85px;
+        width: 100%;
+        background: linear-gradient(86.89deg, #f40000 45%, #ed1183 55%), linear-gradient(93.67deg, #b15bf3 55%, rgba(230, 13, 13, 0) 112.86%), #6d44f3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logotype img {
+        width: 55px;
+        padding-left: 15px;
+    }
+    
+    .menu img {
+        width: 35px;
+        padding-right: 15px;
+    }
+    
+    .part1 {
+        height: 600px;
+        width: 100%;
+        display: flex;
+    }
+    
+    .logotype1 img {
+        width: 100px;
+        padding-left: 15px;
+    }
+    
+    .bigpart {
+        width: 65%;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    .insider1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .smallerpart {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        background-size: cover;
+    }
+    
+    .insider2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 105px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    
+    .bigcontainer {
+        background: linear-gradient(86.89deg, #f40000 45%, #ed1183 55%), linear-gradient(93.67deg, #b15bf3 55%, rgba(230, 13, 13, 0) 112.86%), #6d44f3;
+    }
+    
+    .text1 {
+        padding-top: 65px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .text2 {
+        padding-top: 31px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+    }
+    
+    .block {
+        max-width: 444px;
+        background-color: white;
+        padding: 29px 54px 29px 105px;
+        margin: 32px;
+        border-radius: 10px;
+        box-shadow: black;
+        position: relative;
+    }
+    
+    .container {
+        display: flex;
+        max-width: 920px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .kartinochka {
+        position: absolute;
+        top: 30px;
+        left: 35px;
+        max-width: 30px;
+        max-height: 30px;
+    }
+    
+    .blocktext {
+        max-width: 150px;
+    }
+    
+    .centralfotka {
+        transform: rotate(90deg);
+        max-width: 580px;
+        position: absolute;
+        bottom: -69px;
+        right: 0;
+    }
+    
+    .jsmenushka {
+        background-color: peachpuff;
+        max-width: 600px;
+        max-height: 800px;
+        border: solid;
+        border-radius: 2%;
+    }
+    
+    .jstext {
+        text-align: right;
+        font-size: 22pt;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 8px;
+        padding-right: 35px;
+    }
+    
+    .jstext1 {
+        text-align: center;
+        font-size: 28pt;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 8px;
+    }
